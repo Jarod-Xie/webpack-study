@@ -4,12 +4,14 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   },
